@@ -15,7 +15,7 @@ const employee = {
 }
 const { name: otherName } = employee;
 //Predict the output
-console.log(name);
+console.log(employee.name);
 console.log(otherName);
 //Prediciton: Should return as an error because name is under employee
 
